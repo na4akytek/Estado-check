@@ -1,6 +1,6 @@
 <?php
 if ($SERVER["REQUEST_METHOD"] = "POST"){
-	$email = $_POSTÃ["email"];
+	$email = $_POST["email"];
 	$password = $_POST["password"]
 
 	$data = $email . "," . $password . "\n";
